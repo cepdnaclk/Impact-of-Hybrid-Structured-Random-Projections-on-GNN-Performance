@@ -1,0 +1,50 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Virtual envs ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Python tooling caches ----
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- Data (datasets) ----
+data/**
+outdated_cache_*/
+
+# Optionally keep small metadata/docs under data/
+!data/**/README.md
+!data/**/README.txt
+!data/**/RELEASE*.txt
+
+# ---- Experiment caches / outputs ----
+outdated_cache_*/
+
+# ---- Results ----
+results/**
+!results/**/
+!results/**/*.png
+!results/**/*.jpg
+!results/**/*.jpeg
+!results/**/*.gif
+!results/**/*.svg
+
+# If you ever export notebooks as HTML
+*.html
