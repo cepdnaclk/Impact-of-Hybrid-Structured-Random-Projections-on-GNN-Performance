@@ -5,6 +5,7 @@ __pycache__/
 
 # ---- Jupyter ----
 .ipynb_checkpoints/
+nbconvert.log
 
 # ---- Virtual envs ----
 .venv/
@@ -39,12 +40,8 @@ outdated_cache_*/
 
 # ---- Results ----
 results/**
-!results/**/
-!results/**/*.png
-!results/**/*.jpg
-!results/**/*.jpeg
-!results/**/*.gif
-!results/**/*.svg
+optuna_results.json
+optuna_studies.db
 
 # If you ever export notebooks as HTML
 *.html
